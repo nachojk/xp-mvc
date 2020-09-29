@@ -1,0 +1,16 @@
+{
+    "name": "xpcloud/xp-mvc",
+    "description": "PHP MVC EASY AND SIMPLY",
+    "authors": [
+        {
+            "name": "Javier Zamudio",
+            "email": "javier.zamudio@xpcloud.com.mx"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-ctype": "*",
+        "ext-filter": "*",
+        "ext-hash": "*"
+    }    
+}
