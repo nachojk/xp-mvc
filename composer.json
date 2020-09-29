@@ -7,10 +7,17 @@
             "email": "javier.zamudio@xpcloud.com.mx"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nachojk/xp-mvc"
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
         "ext-ctype": "*",
         "ext-filter": "*",
         "ext-hash": "*"
-    }    
+    },
+    "version": "1.0.0"
 }
