@@ -1,8 +1,13 @@
 <?php
 use JKRoutes\Route;
-
+use JKModel\Model;
 Route::add("/",function(){
     view("inicio.php");
+});
+
+Route::add("/database",function(){
+    $res = Model::getArray("*","table_name");
+    jsonApi($res);
 });
 
 Route::pathNotFound(function($path) {
