@@ -1,14 +1,8 @@
 <?php 
-include 'Controlador/Controlador.php';
-$handler  = new Controlador();
-
-$code = 'inicio';
-
-if(isset($_GET['evento'])){
-    $code = $_GET['evento'];
-}
-
-$handler->handler($code);
-
-
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+include 'src/JKcore/core.php';
+use core\Core;
+Core::handler();
 ?>

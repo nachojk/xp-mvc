@@ -6,7 +6,6 @@
     <title>XPC - MVC</title>
 </head>
 <body>
-    
-    
+    <h1>Hola Retorno de vista</h1>
 </body>
 </html>
